@@ -1,0 +1,209 @@
+Best Case Projection
+/opt/anaconda3/envs/restart_env/lib/python3.10/site-packages/pulp/pulp.py:1352: UserWarning: Spaces are not permitted in the name. Converted to '_'
+  warnings.warn("Spaces are not permitted in the name. Converted to '_'")
+Welcome to the CBC MILP Solver 
+Version: 2.10.3 
+Build Date: Dec 15 2019 
+
+command line - /opt/anaconda3/envs/restart_env/lib/python3.10/site-packages/pulp/solverdir/cbc/osx/64/cbc /var/folders/l8/qnr45km55b108dfwvptknbbrd2yq0h/T/507d868303044bcea17ded89c44baac2-pulp.mps timeMode elapsed branch printingOptions all solution /var/folders/l8/qnr45km55b108dfwvptknbbrd2yq0h/T/507d868303044bcea17ded89c44baac2-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 39 COLUMNS
+At line 109 RHS
+At line 144 BOUNDS
+At line 146 ENDATA
+Problem MODEL has 34 rows, 31 columns and 68 elements
+Coin0008I MODEL read with 0 errors
+Option for timeMode changed from cpu to elapsed
+Presolve 0 (-34) rows, 0 (-31) columns and 0 (-68) elements
+Empty problem - 0 rows, 0 columns and 0 elements
+Optimal - objective value 0
+After Postsolve, objective 0, infeasibilities - dual 0 (0), primal 0 (0)
+Optimal objective 0 - 0 iterations time 0.002, Presolve 0.00
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.01
+
+Critical Path time:
+A starts at time 0
+B starts at time 0
+H takes 872.0 hours in duration
+Projects takes 174.4 hours in duration considering full team
+Projects takes 21.8 days in duration considering full team
+Projects takes 4.36 weeks in duration considering full team
+Projects takes 1.09 months in duration considering full team
+Project costs 43600.0 in Wages
+Project costs 54500.0 to Company (includes Markup)
+
+Solution variable values:
+__dummy = None
+end_A = 20.0
+end_B = 800.0
+end_C = 30.0
+end_D1 = 100.0
+end_D2 = 140.0
+end_D3 = 180.0
+end_D4 = 300.0
+end_D5 = 340.0
+end_D6 = 324.0
+end_D7 = 444.0
+end_D8 = 468.0
+end_E = 824.0
+end_F = 848.0
+end_G = 492.0
+end_H = 872.0
+start_A = 0.0
+start_B = 0.0
+start_C = 20.0
+start_D1 = 20.0
+start_D2 = 100.0
+start_D3 = 100.0
+start_D4 = 180.0
+start_D5 = 300.0
+start_D6 = 300.0
+start_D7 = 324.0
+start_D8 = 444.0
+start_E = 800.0
+start_F = 824.0
+start_G = 468.0
+start_H = 848.0
+
+
+Expected Projection
+/opt/anaconda3/envs/restart_env/lib/python3.10/site-packages/pulp/pulp.py:1352: UserWarning: Spaces are not permitted in the name. Converted to '_'
+  warnings.warn("Spaces are not permitted in the name. Converted to '_'")
+Welcome to the CBC MILP Solver 
+Version: 2.10.3 
+Build Date: Dec 15 2019 
+
+command line - /opt/anaconda3/envs/restart_env/lib/python3.10/site-packages/pulp/solverdir/cbc/osx/64/cbc /var/folders/l8/qnr45km55b108dfwvptknbbrd2yq0h/T/3612ef495cc7427b9ae7f9ae36770f02-pulp.mps timeMode elapsed branch printingOptions all solution /var/folders/l8/qnr45km55b108dfwvptknbbrd2yq0h/T/3612ef495cc7427b9ae7f9ae36770f02-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 39 COLUMNS
+At line 109 RHS
+At line 144 BOUNDS
+At line 146 ENDATA
+Problem MODEL has 34 rows, 31 columns and 68 elements
+Coin0008I MODEL read with 0 errors
+Option for timeMode changed from cpu to elapsed
+Presolve 0 (-34) rows, 0 (-31) columns and 0 (-68) elements
+Empty problem - 0 rows, 0 columns and 0 elements
+Optimal - objective value 0
+After Postsolve, objective 0, infeasibilities - dual 0 (0), primal 0 (0)
+Optimal objective 0 - 0 iterations time 0.002, Presolve 0.00
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.00
+
+Critical Path time:
+A starts at time 0
+B starts at time 0
+H takes 1736.0 hours in duration
+Projects takes 347.2 hours in duration considering full team
+Projects takes 43.4 days in duration considering full team
+Projects takes 8.68 weeks in duration considering full team
+Projects takes 2.17 months in duration considering full team
+Project costs 86800.0 in Wages
+Project costs 108500.0 to Company (includes Markup)
+
+Solution variable values:
+__dummy = None
+end_A = 30.0
+end_B = 1600.0
+end_C = 45.0
+end_D1 = 150.0
+end_D2 = 230.0
+end_D3 = 270.0
+end_D4 = 570.0
+end_D5 = 630.0
+end_D6 = 642.0
+end_D7 = 862.0
+end_D8 = 934.0
+end_E = 1652.0
+end_F = 1704.0
+end_G = 966.0
+end_H = 1736.0
+start_A = 0.0
+start_B = 0.0
+start_C = 30.0
+start_D1 = 30.0
+start_D2 = 150.0
+start_D3 = 150.0
+start_D4 = 270.0
+start_D5 = 570.0
+start_D6 = 570.0
+start_D7 = 642.0
+start_D8 = 862.0
+start_E = 1600.0
+start_F = 1652.0
+start_G = 934.0
+start_H = 1704.0
+
+
+Worst Case Projection
+/opt/anaconda3/envs/restart_env/lib/python3.10/site-packages/pulp/pulp.py:1352: UserWarning: Spaces are not permitted in the name. Converted to '_'
+  warnings.warn("Spaces are not permitted in the name. Converted to '_'")
+Welcome to the CBC MILP Solver 
+Version: 2.10.3 
+Build Date: Dec 15 2019 
+
+command line - /opt/anaconda3/envs/restart_env/lib/python3.10/site-packages/pulp/solverdir/cbc/osx/64/cbc /var/folders/l8/qnr45km55b108dfwvptknbbrd2yq0h/T/ac09eec15590480b99c37acb32c89452-pulp.mps timeMode elapsed branch printingOptions all solution /var/folders/l8/qnr45km55b108dfwvptknbbrd2yq0h/T/ac09eec15590480b99c37acb32c89452-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 39 COLUMNS
+At line 109 RHS
+At line 144 BOUNDS
+At line 146 ENDATA
+Problem MODEL has 34 rows, 31 columns and 68 elements
+Coin0008I MODEL read with 0 errors
+Option for timeMode changed from cpu to elapsed
+Presolve 0 (-34) rows, 0 (-31) columns and 0 (-68) elements
+Empty problem - 0 rows, 0 columns and 0 elements
+Optimal - objective value 0
+After Postsolve, objective 0, infeasibilities - dual 0 (0), primal 0 (0)
+Optimal objective 0 - 0 iterations time 0.002, Presolve 0.00
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.00
+
+Critical Path time:
+A starts at time 0
+B starts at time 0
+H takes 2600.0 hours in duration
+Projects takes 520.0 hours in duration considering full team
+Projects takes 65.0 days in duration considering full team
+Projects takes 13.0 weeks in duration considering full team
+Projects takes 3.25 months in duration considering full team
+Project costs 130000.0 in Wages
+Project costs 162500.0 to Company (includes Markup)
+
+Solution variable values:
+__dummy = None
+end_A = 40.0
+end_B = 2400.0
+end_C = 60.0
+end_D1 = 200.0
+end_D2 = 320.0
+end_D3 = 360.0
+end_D4 = 840.0
+end_D5 = 920.0
+end_D6 = 960.0
+end_D7 = 1280.0
+end_D8 = 1400.0
+end_E = 2480.0
+end_F = 2560.0
+end_G = 1440.0
+end_H = 2600.0
+start_A = 0.0
+start_B = 0.0
+start_C = 40.0
+start_D1 = 40.0
+start_D2 = 200.0
+start_D3 = 200.0
+start_D4 = 360.0
+start_D5 = 840.0
+start_D6 = 840.0
+start_D7 = 960.0
+start_D8 = 1280.0
+start_E = 2400.0
+start_F = 2480.0
+start_G = 1400.0
+start_H = 2560.0
+(restart_env) xgxd067@C02FW4LFMD6N MSDS460 % 
