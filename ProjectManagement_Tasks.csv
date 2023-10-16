@@ -1,0 +1,17 @@
+taskID,task,predecessorTaskIDs,BestCase,Expected,WorstCase
+A,Describe product,,20,30,40
+B,Develop marketing strategy,,800,1600,2400
+C,Design brochure,A,10,15,20
+D,Develop product prototype,,,,
+D1,Requirements analysis,A,80,120,160
+D2,Software design,D1,40,80,120
+D3,System design,D1,80,120,160
+D4,Coding,"D2, D3",120,300,480
+D5,Write documentation,D4,40,60,80
+D6,Unit testing,D4,24,72,120
+D7,System testing,D6,120,220,320
+D8,Package deliverables,"D5, D7",24,72,120
+E,Survey potential market,"B, C",24,52,80
+F,Develop pricing plan,"D8, E",24,52,80
+G,Develop implementation plan,"A, D8",24,32,40
+H,Write client proposal,"F, G",24,32,40
