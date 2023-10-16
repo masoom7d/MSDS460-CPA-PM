@@ -4,7 +4,7 @@ from pulp import *
 import pandas as pd
 
 ## Best Case Times
-print("Best Case Projection")
+print("\nBest Case Projection\n")
 # Upload csv with task ID and hours per task
 pm_csv = pd.read_csv('ProjectManagement_Tasks.csv')
 pm_csv= pm_csv[pm_csv.taskID != 'D']
@@ -45,10 +45,10 @@ for activity in activities_list:
         print(f"{activity} starts at time 0")
     if value(end_times[activity]) == max([value(end_times[activity]) for activity in activities_list]):
         print(f"{activity} takes {value(end_times[activity])} hours in duration")
-        print(f"Projects takes {value(end_times[activity]) / 5} hours in duration considering full team")
-        print(f"Projects takes {value(end_times[activity]) / 5 / 8} days in duration considering full team")
-        print(f"Projects takes {value(end_times[activity]) / 5 / 40} weeks in duration considering full team")
-        print(f"Projects takes {value(end_times[activity]) / 5 / 40 / 4} months in duration considering full team")
+        print(f"Projects takes {value(end_times[activity])} hours in duration")
+        print(f"Projects takes {value(end_times[activity])/ 8} days in duration")
+        print(f"Projects takes {value(end_times[activity])/ 40} weeks in duration")
+        print(f"Projects takes {value(end_times[activity])/ 40 / 4} months in duration")
         print(f"Project costs {value(end_times[activity]) * 50} in Wages")
         print(f"Project costs {value(end_times[activity]) * 50 * 1.25} to Company (includes Markup)")
 
@@ -60,7 +60,7 @@ for var in prob.variables():
 
 
 ## Expected Times
-print("Expected Projection")
+print("\nExpected Projection\n")
 # Upload csv with task ID and hours per task
 pm_csv = pd.read_csv('ProjectManagement_Tasks.csv')
 pm_csv= pm_csv[pm_csv.taskID != 'D']
@@ -101,10 +101,10 @@ for activity in activities_list:
         print(f"{activity} starts at time 0")
     if value(end_times[activity]) == max([value(end_times[activity]) for activity in activities_list]):
         print(f"{activity} takes {value(end_times[activity])} hours in duration")
-        print(f"Projects takes {value(end_times[activity]) / 5} hours in duration considering full team")
-        print(f"Projects takes {value(end_times[activity]) / 5 / 8} days in duration considering full team")
-        print(f"Projects takes {value(end_times[activity]) / 5 / 40} weeks in duration considering full team")
-        print(f"Projects takes {value(end_times[activity]) / 5 / 40 / 4} months in duration considering full team")
+        print(f"Projects takes {value(end_times[activity])} hours in duration")
+        print(f"Projects takes {value(end_times[activity])/ 8} days in duration")
+        print(f"Projects takes {value(end_times[activity])/ 40} weeks in duration")
+        print(f"Projects takes {value(end_times[activity])/ 40 / 4} months in duration")
         print(f"Project costs {value(end_times[activity]) * 50} in Wages")
         print(f"Project costs {value(end_times[activity]) * 50 * 1.25} to Company (includes Markup)")
 
@@ -117,7 +117,7 @@ for var in prob.variables():
 
 
 ## Worst Case Times
-print("Worst Case Projection")
+print("\nWorst Case Projection\n")
 # Upload csv with task ID and hours per task
 pm_csv = pd.read_csv('ProjectManagement_Tasks.csv')
 pm_csv= pm_csv[pm_csv.taskID != 'D']
@@ -158,10 +158,10 @@ for activity in activities_list:
         print(f"{activity} starts at time 0")
     if value(end_times[activity]) == max([value(end_times[activity]) for activity in activities_list]):
         print(f"{activity} takes {value(end_times[activity])} hours in duration")
-        print(f"Projects takes {value(end_times[activity]) / 5} hours in duration considering full team")
-        print(f"Projects takes {value(end_times[activity]) / 5 / 8} days in duration considering full team")
-        print(f"Projects takes {value(end_times[activity]) / 5 / 40} weeks in duration considering full team")
-        print(f"Projects takes {value(end_times[activity]) / 5 / 40 / 4} months in duration considering full team")
+        print(f"Projects takes {value(end_times[activity])} hours in duration")
+        print(f"Projects takes {value(end_times[activity])/ 8} days in duration")
+        print(f"Projects takes {value(end_times[activity])/ 40} weeks in duration")
+        print(f"Projects takes {value(end_times[activity])/ 40 / 4} months in duration")
         print(f"Project costs {value(end_times[activity]) * 50} in Wages")
         print(f"Project costs {value(end_times[activity]) * 50 * 1.25} to Company (includes Markup)")
 
