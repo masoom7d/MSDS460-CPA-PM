@@ -1,11 +1,12 @@
 Best Case Projection
+
 /opt/anaconda3/envs/restart_env/lib/python3.10/site-packages/pulp/pulp.py:1352: UserWarning: Spaces are not permitted in the name. Converted to '_'
   warnings.warn("Spaces are not permitted in the name. Converted to '_'")
 Welcome to the CBC MILP Solver 
 Version: 2.10.3 
 Build Date: Dec 15 2019 
 
-command line - /opt/anaconda3/envs/restart_env/lib/python3.10/site-packages/pulp/solverdir/cbc/osx/64/cbc /var/folders/l8/qnr45km55b108dfwvptknbbrd2yq0h/T/507d868303044bcea17ded89c44baac2-pulp.mps timeMode elapsed branch printingOptions all solution /var/folders/l8/qnr45km55b108dfwvptknbbrd2yq0h/T/507d868303044bcea17ded89c44baac2-pulp.sol (default strategy 1)
+command line - /opt/anaconda3/envs/restart_env/lib/python3.10/site-packages/pulp/solverdir/cbc/osx/64/cbc /var/folders/l8/qnr45km55b108dfwvptknbbrd2yq0h/T/ab96770edc1a4567a805f557d52df7d6-pulp.mps timeMode elapsed branch printingOptions all solution /var/folders/l8/qnr45km55b108dfwvptknbbrd2yq0h/T/ab96770edc1a4567a805f557d52df7d6-pulp.sol (default strategy 1)
 At line 2 NAME          MODEL
 At line 3 ROWS
 At line 39 COLUMNS
@@ -27,10 +28,10 @@ Critical Path time:
 A starts at time 0
 B starts at time 0
 H takes 872.0 hours in duration
-Projects takes 174.4 hours in duration considering full team
-Projects takes 21.8 days in duration considering full team
-Projects takes 4.36 weeks in duration considering full team
-Projects takes 1.09 months in duration considering full team
+Projects takes 872.0 hours in duration
+Projects takes 109.0 days in duration
+Projects takes 21.8 weeks in duration
+Projects takes 5.45 months in duration
 Project costs 43600.0 in Wages
 Project costs 54500.0 to Company (includes Markup)
 
@@ -67,15 +68,15 @@ start_F = 824.0
 start_G = 468.0
 start_H = 848.0
 
-
 Expected Projection
+
 /opt/anaconda3/envs/restart_env/lib/python3.10/site-packages/pulp/pulp.py:1352: UserWarning: Spaces are not permitted in the name. Converted to '_'
   warnings.warn("Spaces are not permitted in the name. Converted to '_'")
 Welcome to the CBC MILP Solver 
 Version: 2.10.3 
 Build Date: Dec 15 2019 
 
-command line - /opt/anaconda3/envs/restart_env/lib/python3.10/site-packages/pulp/solverdir/cbc/osx/64/cbc /var/folders/l8/qnr45km55b108dfwvptknbbrd2yq0h/T/3612ef495cc7427b9ae7f9ae36770f02-pulp.mps timeMode elapsed branch printingOptions all solution /var/folders/l8/qnr45km55b108dfwvptknbbrd2yq0h/T/3612ef495cc7427b9ae7f9ae36770f02-pulp.sol (default strategy 1)
+command line - /opt/anaconda3/envs/restart_env/lib/python3.10/site-packages/pulp/solverdir/cbc/osx/64/cbc /var/folders/l8/qnr45km55b108dfwvptknbbrd2yq0h/T/888bfe1bb4b24d9eb90bf4dfdba42c5c-pulp.mps timeMode elapsed branch printingOptions all solution /var/folders/l8/qnr45km55b108dfwvptknbbrd2yq0h/T/888bfe1bb4b24d9eb90bf4dfdba42c5c-pulp.sol (default strategy 1)
 At line 2 NAME          MODEL
 At line 3 ROWS
 At line 39 COLUMNS
@@ -97,10 +98,10 @@ Critical Path time:
 A starts at time 0
 B starts at time 0
 H takes 1736.0 hours in duration
-Projects takes 347.2 hours in duration considering full team
-Projects takes 43.4 days in duration considering full team
-Projects takes 8.68 weeks in duration considering full team
-Projects takes 2.17 months in duration considering full team
+Projects takes 1736.0 hours in duration
+Projects takes 217.0 days in duration
+Projects takes 43.4 weeks in duration
+Projects takes 10.85 months in duration
 Project costs 86800.0 in Wages
 Project costs 108500.0 to Company (includes Markup)
 
@@ -137,15 +138,15 @@ start_F = 1652.0
 start_G = 934.0
 start_H = 1704.0
 
-
 Worst Case Projection
+
 /opt/anaconda3/envs/restart_env/lib/python3.10/site-packages/pulp/pulp.py:1352: UserWarning: Spaces are not permitted in the name. Converted to '_'
   warnings.warn("Spaces are not permitted in the name. Converted to '_'")
 Welcome to the CBC MILP Solver 
 Version: 2.10.3 
 Build Date: Dec 15 2019 
 
-command line - /opt/anaconda3/envs/restart_env/lib/python3.10/site-packages/pulp/solverdir/cbc/osx/64/cbc /var/folders/l8/qnr45km55b108dfwvptknbbrd2yq0h/T/ac09eec15590480b99c37acb32c89452-pulp.mps timeMode elapsed branch printingOptions all solution /var/folders/l8/qnr45km55b108dfwvptknbbrd2yq0h/T/ac09eec15590480b99c37acb32c89452-pulp.sol (default strategy 1)
+command line - /opt/anaconda3/envs/restart_env/lib/python3.10/site-packages/pulp/solverdir/cbc/osx/64/cbc /var/folders/l8/qnr45km55b108dfwvptknbbrd2yq0h/T/62d140abc6f5433287ac8fbd30a53ae6-pulp.mps timeMode elapsed branch printingOptions all solution /var/folders/l8/qnr45km55b108dfwvptknbbrd2yq0h/T/62d140abc6f5433287ac8fbd30a53ae6-pulp.sol (default strategy 1)
 At line 2 NAME          MODEL
 At line 3 ROWS
 At line 39 COLUMNS
@@ -167,10 +168,10 @@ Critical Path time:
 A starts at time 0
 B starts at time 0
 H takes 2600.0 hours in duration
-Projects takes 520.0 hours in duration considering full team
-Projects takes 65.0 days in duration considering full team
-Projects takes 13.0 weeks in duration considering full team
-Projects takes 3.25 months in duration considering full team
+Projects takes 2600.0 hours in duration
+Projects takes 325.0 days in duration
+Projects takes 65.0 weeks in duration
+Projects takes 16.25 months in duration
 Project costs 130000.0 in Wages
 Project costs 162500.0 to Company (includes Markup)
 
@@ -206,4 +207,3 @@ start_E = 2400.0
 start_F = 2480.0
 start_G = 1400.0
 start_H = 2560.0
-(restart_env) xgxd067@C02FW4LFMD6N MSDS460 % 
